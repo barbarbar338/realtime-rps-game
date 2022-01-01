@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Comfortaa";
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+#lblNickname {
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+	height: 10vh;
+	font-size: 50px;
+	text-align: center;
+	align-self: center;
+}
+
+#icons {
+	opacity: 0;
+	transition: 2s;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.feedback-container {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#lblFeedback {
+	font-size: 6vh;
+}
+
+.score-box {
+	opacity: 0;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 10px;
+	margin-right: 10px;
+	top: 0;
+	right: 0;
+	border: 1px black solid;
+	width: 8vh;
+	height: 8vh;
+	text-align: center;
+	justify-content: flex-end;
+}
+
+.lblScore {
+	font-size: 6vh;
+}
+
+.btnModal {
+	opacity: 1;
+	display: flex;
+	align-self: center;
+	margin-top: 10px;
+	transition: 1s;
+}
+
+.iModal {
+	opacity: 1;
+	display: flex;
+	align-self: center;
+	margin-top: 10px;
+	transition: 1s;
+}
+
+.iModal:hover {
+	color: #f44336;
+}
